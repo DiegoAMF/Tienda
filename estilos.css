@@ -1,7 +1,14 @@
 body {
     font-family: 'Rajdhani', sans-serif;
+    background-color: #a5fcca;
 }
-
+h1{color: #0FF571; font-size: 60px; background-color: blueviolet; text-align: center;}
+h2{font-size: 30px; text-align: center;}
+p{font-size: x-large;}
+.fab {
+  font-size: 30px;
+  color: blueviolet;
+}
 /* Menu
 
 */
@@ -19,14 +26,15 @@ body {
 
 .menu-li a {
     display: block;
-    color: #0FF571;
+    color: blueviolet;
     text-align: center;
-    padding: 14px 16px;
+    padding: 15px 30px;
     text-decoration: none;
+    font-size: larger;
 }
 
-.menu-li a :hover {
-    background-color: #C2FF11;
+.menu-li a:hover {
+    background-color: #0FF571;
 }
 /*Imagen de la pagina Inicio
 */
@@ -45,24 +53,26 @@ body {
 }
 .p-img {
     font-size: 4rem;
-    color: black;
+    color: rgba(214, 79, 255, 0.644);
 }
 
 /* equipos */
 .wrapper {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
 }
 
 .card {
     /*Add shadows to create the "card" effect */
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 4px 8px 0 rgba(214, 79, 255, 0.644);
     transition: 0.3s;
+    background-color: white;
 }
 
 /* On mouse.over, add a deeper shadow */
 .card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 8px 16px 0 rgba(214, 79, 255, 0.295);
 }
 
 /* Add some padding inside the card container */
@@ -85,7 +95,7 @@ haciendo una simple transición de medio segundo.
     bottom: 0;
     left: 0;
     right: 0;
-    background: rgba(0, 0, 0, 0.7);
+    background: rgba(167, 243, 137, 0.7);
     transition: opacity 500ms;
     visibility: hidden;
     opacity: 0;
@@ -103,18 +113,18 @@ haciendo una simple transición de medio segundo.
     width: 46%;
     padding: 2%;
     border-radius: 15px;
-    box-shadow: 0 0 5px #CCC;
-    background: #FFF;
+    box-shadow: 0 0 5px #04CFA1;
+    background: rgb(255, 255, 255);
     position: relative;
     transition: all 5s ease-in-out;
     margin: 20% auto;    
   }
   #cerrar{
     position: absolute;
-    top: 20px;
-    right: 30px;
+    top: 30px;
+    right: 40px;
     transition: all 200ms;
-    font-size: 30px;
+    font-size: 50px;
     font-weight: bold;
     text-decoration: none;
     color: #0FF571;
@@ -125,18 +135,18 @@ haciendo una simple transición de medio segundo.
     width: 46%;
     padding: 2%;
     border-radius: 15px;
-    box-shadow: 0 0 5px #CCC;
-    background: #FFF;
+    box-shadow: 0 0 5px #04CFA1;
+    background: #ffff;
     position: relative;
     transition: all 5s ease-in-out;
-    margin: 20% auto;    
+    margin: 20% auto;   
   }
   #cerrar{
     position: absolute;
-    top: 20px;
-    right: 30px;
+    top: 30px;
+    right: 40px;
     transition: all 200ms;
-    font-size: 30px;
+    font-size: 50px;
     font-weight: bold;
     text-decoration: none;
     color: #0FF571;
@@ -146,7 +156,7 @@ haciendo una simple transición de medio segundo.
     width: 46%;
     padding: 2%;
     border-radius: 15px;
-    box-shadow: 0 0 5px #CCC;
+    box-shadow: 0 0 5px #04CFA1;
     background: #FFF;
     position: relative;
     transition: all 5s ease-in-out;
@@ -154,10 +164,10 @@ haciendo una simple transición de medio segundo.
   }
   #cerrar{
     position: absolute;
-    top: 20px;
-    right: 30px;
+    top: 30px;
+    right: 40px;
     transition: all 200ms;
-    font-size: 30px;
+    font-size: 50px;
     font-weight: bold;
     text-decoration: none;
     color: #0FF571;
@@ -167,7 +177,7 @@ haciendo una simple transición de medio segundo.
     width: 46%;
     padding: 2%;
     border-radius: 15px;
-    box-shadow: 0 0 5px #CCC;
+    box-shadow: 0 0 5px #04CFA1;
     background: #FFF;
     position: relative;
     transition: all 5s ease-in-out;
@@ -175,10 +185,10 @@ haciendo una simple transición de medio segundo.
   }
   #cerrar{
     position: absolute;
-    top: 20px;
-    right: 30px;
+    top: 30px;
+    right: 40px;
     transition: all 200ms;
-    font-size: 30px;
+    font-size: 50px;
     font-weight: bold;
     text-decoration: none;
     color: #0FF571;
@@ -188,7 +198,7 @@ haciendo una simple transición de medio segundo.
     width: 46%;
     padding: 2%;
     border-radius: 15px;
-    box-shadow: 0 0 5px #CCC;
+    box-shadow: 0 0 5px #04CFA1;
     background: #FFF;
     position: relative;
     transition: all 5s ease-in-out;
@@ -196,10 +206,10 @@ haciendo una simple transición de medio segundo.
   }
   #cerrar{
     position: absolute;
-    top: 20px;
-    right: 30px;
+    top: 30px;
+    right: 40px;
     transition: all 200ms;
-    font-size: 30px;
+    font-size: 50px;
     font-weight: bold;
     text-decoration: none;
     color: #0FF571;
@@ -209,7 +219,7 @@ haciendo una simple transición de medio segundo.
     width: 46%;
     padding: 2%;
     border-radius: 15px;
-    box-shadow: 0 0 5px #CCC;
+    box-shadow: 0 0 5px #04CFA1;
     background: #FFF;
     position: relative;
     transition: all 5s ease-in-out;
@@ -217,11 +227,45 @@ haciendo una simple transición de medio segundo.
   }
   #cerrar{
     position: absolute;
-    top: 20px;
-    right: 30px;
+    top: 30px;
+    right: 40px;
     transition: all 200ms;
-    font-size: 30px;
+    font-size: 50px;
     font-weight: bold;
     text-decoration: none;
     color: #0FF571;
   }
+
+  /* Juegos */
+  .wrapper-juegos {
+    display: grid;
+    grid-template-columns: repeat(3, 32%);
+    gap: 15px;
+    padding-top: 150px;
+    transform-origin: 0 0;
+    transform: skewY(-8deg);
+}
+
+/* hover juegos */
+
+.tooltip {
+  position: static;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 30%;
+  background-color: #C2FF11;
+  color: #FFF;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  /* posición de tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  box-shadow: 0 4px 8px 0 rgba(214, 79, 255, 0.644);
+}
